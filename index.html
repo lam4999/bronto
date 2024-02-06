@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="get" enctype="multipart/form-data">
+        <label for="name">Ten: </label>
+        <br>
+        <input tabindex="1" placeholder="Nguyen Van A" type="text" name="name" id="name" />
+        <br/>
+        <label for="password">Mat khau:</label>
+        <br/>
+        <input placeholder="1234@" type="password" name="password" id="password" />
+        <br/>
+        <label for="file">tai len file:</label>
+        <br/>
+        <input type="file" name="file" id="file" />
+        <br/>
+        <label for="checkbox">So thich: </label>
+        <br/>
+        <input type="checkbox" name="so thich" /> di ngu
+        <input type="checkbox" name="so thich" /> an com
+        <input type="checkbox" name="so thich" /> choi game
+        <br/>
+        <label for="checkbox">Gioi tinh: </label>
+        <br/>
+        <input type="radio" name="gioi tinh" /> nam
+        <input type="radio" name="gioi tinh" /> nu
+        <input type="radio" name="gioi tinh" /> khong chon
+        <br/>
+        <input type="hidden" value="1324">
+        <br/>
+        <input type="button" value="button"/>
+        <br/>
+        <br/>
+        <input type="submit" value="Nộp"/>
+
+        <textarea name="motasp" id="" cols="30" rows="10"></textarea>
+        <select name="tp" id="">
+        <option value="1">Ha Noi</option>
+        <option value="2">Bac Giang</option>
+        <option value="3">Quang Ninh</option>
+        <option value="4">Bac Kan</option>
+        <option value="5">Ha Nam</option>
+        <option selected value="6">Bac Ninh</option>
+        <option value="7">Can Tho</option>
+        <option value="8">My Dinh</option>
+        <option value="9">HCM</option>
+        <option value="10">Da Nang</option>
+        </select>
+        <input type="date">
+        <input type="number">
+        <input type="email">
+    </form>
+</body>
+</html>
